@@ -1,0 +1,58 @@
+.goods-inner{
+    width: 1190px;
+    height: 350px;
+    background-color: white;
+    margin: 0 17%;
+}
+/* 有好货 */
+.goods-inner .inner-title h3{
+    height: 24px;
+    margin: 20px 0;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 24px;
+}
+.goods-inner .inner-title span{
+    margin: 4px 0 0 6px;
+    padding: 1px;
+    background-color: #19a4fa;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* 商品详情 */
+.goods-inner .goods-list{
+    margin: 5px;
+}
+.goods-inner .gd-list{
+    width: 215px;
+    height: 319px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.goods-inner .gd-list .gd-img img{
+    width: 215px;
+    height: 215px;
+    border-radius: 15px;
+}
+.goods-inner .gd-list .gd-txt{
+    width: 215px;
+    height: 48.5px;
+}
+.goods-inner .gd-list .gd-txt span{
+    width: 215px;
+    height: 16px;
+}
+.goods-inner .gd-list .gd-txt p{
+    width: 215px;
+    height: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+

@@ -1,0 +1,79 @@
+.like-inner{
+    width: 1190px;
+    background-color: white;
+    margin: 0 17%;
+}
+/* 猜你喜欢 */
+.like-inner .inner-title h3{
+    height: 24px;
+    margin: 20px 0;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 24px;
+}
+.like-inner .inner-title span{
+    margin: 4px 0 0 6px;
+    padding: 1px;
+    background-color: #ff6f00;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* 商品详情 */
+.like-inner .goods-list{
+    margin: 5px 5px 0 5px;
+}
+.like-inner .lg-list{
+    margin: 15px 0 15px 15px;
+    display: inline-block;
+}
+.like-inner .lg-list .lg-img img{
+    width: 215px;
+    height: 215px;
+    border-radius: 15px;
+}
+.like-inner .lg-list .lg-txt{
+    width: 215px;
+    height: 48.5px;
+}
+.like-inner .lg-list .lg-txt span{
+    width: 215px;
+    height: 16px;
+}
+.like-inner .lg-list .lg-txt p{
+    width: 215px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+}
+.like-inner .lg-list .lg-txt .price{
+    color: red;
+    font-size: 22px;
+}
+.like-inner .lg-list .lg-txt .price em{
+    font-size: 12px;
+    font-style: normal;
+}
+.similar-txt{
+    position: absolute;
+    display: none;
+}
+.similar-txt .similar{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 7.5px;
+    bottom: 0px;
+}
+.similar-txt .similar p{
+    width: 200px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #FF5000;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+}
+.simtxt{
+    display: block;
+}

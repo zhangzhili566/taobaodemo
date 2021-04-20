@@ -1,0 +1,444 @@
+a:hover{
+    color: red;
+}
+.screen-outer{
+    width: 1190px;
+    height: 514px;
+    background-color: white;
+    margin: 0 17%;
+    display: block;
+}
+
+/* 主题市场菜单栏、轮播图、今日热卖 */
+.so-left{
+    width: 900px;
+    height: 514px;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+.theme{
+    width: 190px;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    position: absolute;
+    display: block;
+}
+.theme-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.theme-ul li{
+    width: 145px;
+    height: 32px;
+    padding: 1px 19px 1px 25px;
+    word-spacing: -0.1em;
+    line-height: 32px;
+}
+.theme-ul .iconfont{
+    float: right;
+    color: red;
+}
+
+
+
+
+
+/* 浮动菜单 */
+.theme-float{
+    width: 710px;
+    height: 515px;
+    border: 2px solid red;
+    position: absolute;
+    top: -5px;
+    left: 180px;
+    border-radius: 25px;
+    background-color: white;
+    z-index: 101;
+    display: none;
+}
+/* 浮动菜单左边 */
+.float-item-l{
+    width: 415px;
+    height: 490px;
+    margin: 10px 0 10px 10px;
+    float: left;
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.item h5{
+    margin: 10px;
+    font-size: 16px;
+    color: #333333;
+    position: relative;
+
+}
+.item a{
+    color: #666666;
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 10px; 
+    font-size: 12px;
+}
+.theme-float-yes{
+    display: block!important;
+}
+.theme-li-color{
+    background-color: #ffe4dc;
+    color: #FF5000;
+}
+/* 浮动菜单右边 */
+.float-item-r{
+    width: 250px;
+    height: 490px;
+    margin: 10px 10px 10px 0;
+    float: right;
+}
+.likeitem h3{
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+}
+.likeitem a{
+    display: inline-block;
+    margin: 10px;
+}
+.likeitem img{
+    width: 98px;
+    height: 97px;
+    display: block;
+}
+.likeitem h5{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* 上面的轮播图 */
+.carousel-top{
+    /* border: 1px solid black; */
+    width: 520px;
+    height: 280px;
+    position: absolute;
+    left: 194px;
+    overflow: hidden;
+}
+.carousel-top img{
+    border-radius: 25px;
+    float: left;
+}
+.car-btn-lr{
+    width: 520px;
+    position: absolute;
+    top: 120px;
+    line-height: 30px;
+    color: white;
+}
+.car-btn-lr .iconbtnleft{
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: left;
+}
+.car-btn-lr .iconbtnright{
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: right;
+}
+.car-btn-list{
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+    background-color: black;
+    background:rgb(0,0,0,0.2);
+    border-radius: 25px;
+}
+.car-btn-list ul{
+    height: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 2px;
+}
+.car-btn-list li{
+    width: 10px;
+    height: 10px;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 50px;
+    float: left;
+    margin: 3px;
+}
+
+
+
+
+/* 下面的轮播图 */
+
+.carousel-bottom{
+    /* border: 1px solid black; */
+    width: 520px;
+    height: 230px;
+    position: absolute;
+    top: 280px;
+    left: 194px;
+    border-radius: 25px;
+}
+.carousel-bottom .car-title{
+    width: 520px;
+    height: 30px;
+    font-size: 14px;
+}
+.carousel-bottom .car-title span{
+    float: left;
+    left: 10px;
+    position: absolute;
+    padding: 5px;
+    color: #999;
+}
+.carousel-bottom .car-title strong{
+    position: absolute;
+    float: right;
+    right: 10px;
+    padding: 5px;
+}
+.carousel-bottom .car-img{
+    width: 520px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+}
+.carousel-bottom .car-img a{
+    width: 251px;
+    height: 190px;
+    display: inline-block;
+    margin: 5px 3px;
+}
+
+.carousel-bottom img{
+    border-radius: 25px;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+/* 轮播图右边的广告 */
+.column-top{
+    width: 160px;
+    height: 280px;
+    position: absolute;
+    right: 10px;
+}
+.column-top img{
+    border-radius: 25px;
+}
+
+.column-bottom{
+    width: 160px;
+    height: 230px;
+    position: absolute;
+    top: 280px;
+    right: 10px;
+}
+.column-bottom div{
+    height: 30px;
+    font-size: 14px;
+    color: #999;
+}
+.column-bottom span{
+    float: left;
+    margin: 5px;
+}
+.column-bottom img{
+    border-radius: 25px;
+}
+
+
+
+/* 用户信息、快捷充值 */
+.so-right{
+    width: 290px;
+    height: 514px;
+    float: right;
+    margin: 0;
+}
+/* 用户信息 */
+.user{
+    width: 290px;
+    height: 137px;
+}
+.user-img{
+    width: 74px;
+    height: 56px;
+    margin: 0 108px;
+}
+.user-img img{
+    width: 50px;
+    height: 50px;
+    margin: 3px 12px;
+    border-radius: 25px;
+}
+.user-name{
+    height: 17px;
+    text-align: center;
+    font-size: 13px;
+}
+.user-activity{
+    height: 17px;
+    text-align: center;
+}
+.user-activity a{
+    width: 80px;
+    height: 16px;
+    background-color: #ffe4db;
+    border-radius: 25px;
+    display: inline-block;
+
+}
+.user-activity span{
+    color: #FF5000;
+    font-size: 12px;
+    float: left;
+    margin-left: 3px;
+}
+.user-member{
+    width: 290px;
+    height: 40px;
+    margin-top: 2px;
+    padding-left: 15px;
+}
+.user-member a{
+    width: 66px;
+    height: 35.6px;
+    float: left;
+    
+}
+.user-member span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.user-member .member-num{
+    font-weight: bold;
+}
+
+/* 开店广告 */
+.kd-tip{
+    width: 290px;
+    height: 69px;
+}
+.kd-tip img {
+    width: 290px;
+    height: 69px;
+    border: 0.5px solid #e8e2e0
+}
+
+/* 公告新闻 */
+.kd-notice{
+    width: 290px;
+    height: 70px;
+}
+.notice-list ul{
+    width: 290px;
+    height: 24px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 4px 0;
+    padding: 0 8px;
+}
+.notice-list li{
+    display: inline-block;
+    margin: 0 11px;
+    font-size: 12px;
+    color: #3C3C3C;
+    font-weight: bold;
+}
+.notice-news{
+    height: 25px;
+    display: block;
+}
+.notice-news a{
+    margin: 0 12px;
+    padding: 6px 0;
+    color: #3C3C3C;
+    font-weight: bold;
+}
+
+/* 话费充值，快捷方式 */
+.shortcut{
+    width: 290px;
+    height: 155px;
+}
+.shortcut ul{
+    width: 290px;
+    height: 155px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.shortcut li{
+    width: 70px;
+    height: 76px;
+    float: left;
+    border: 1px solid #e8e2e0;
+}
+.shortcut span{
+    display: block;
+    text-align: center;
+    margin-top: 11px;
+}
+.shortcut p{
+    text-align: center;
+    margin: 0;
+}
+.shortcut .iconfont{
+    font-size: 24px;
+}
+
+/* app */
+.app{
+    width: 290px;
+    height: 76px;
+}
+.app-title{
+    height: 30px;
+}
+.app-title h3{
+    float: left;
+    margin: 0;
+    font-size: 14px;
+    padding: 5px;
+}
+.app-title a{
+    float: right;
+    font-size: 14px;
+    padding: 5px;
+}
+.app-list ul{
+    list-style-type: none;
+    height: 44px;
+    margin: 5px;
+    padding: 0;
+    float: left;
+}
+.app-list li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.app-list img{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+}

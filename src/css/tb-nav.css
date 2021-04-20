@@ -1,0 +1,202 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #e8e2e0;
+    height: 250vh;
+}
+.divactive{
+    background-color: white;
+}
+.dispin{
+    display: block!important;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+.a-log{
+    color: red;
+}
+.tb-nav{
+    height: 35px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    line-height: 35px;
+}
+.nav{
+    width: 1190px;
+    height: 30px;
+    margin: 0 17%;
+}
+.ul-list-l{
+    list-style-type: none; 
+    font-size: 12px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.ul-list-r{
+    list-style-type: none; 
+    font-size: 12px;
+    float:right;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.li-list{
+    display:inline-block;
+    height: 35px;
+    text-align: center;
+    margin-left: 10px;
+}
+.list{
+    width: 79px;
+    height: 35px;
+}
+
+/* 中国大陆 */
+.li-list .list-ad{
+    width: 242px;
+    height: 29px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.li-list .list-ad ul{
+    height: 250px;
+    list-style-type: none; 
+    padding-left: 8px;
+    background-color: white;
+    border-left: 1px solid #e8e2e0;
+    border-bottom: 1px solid #e8e2e0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.li-list .list-ad li{
+    height: 35px;
+    list-style-type: none; 
+    margin: 5px;
+    text-align: left;
+}
+
+/* 我的淘宝 */
+.li-list .list-usergoods{
+    width: 84px;
+    height: 74px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.li-list .list-usergoods ul{
+    list-style-type: none; 
+    padding-left: 8px;
+    background-color: white;
+    border-left: 1px solid #e8e2e0;
+    border-bottom: 1px solid #e8e2e0;
+    overflow-x: hidden;
+}
+.li-list .list-usergoods li{
+    list-style-type: none; 
+    margin: 5px;
+    text-align: left;
+}
+
+/* 购物车 */
+.li-list .list-goodsche{
+    width: 314px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.li-list .list-goodsche ul{
+    list-style-type: none; 
+    padding-left: 8px;
+    background-color: white;
+    border-left: 1px solid #e8e2e0;
+    border-bottom: 1px solid #e8e2e0;
+    overflow-x: hidden;
+}
+.li-list .list-goodsche p{
+    list-style-type: none; 
+    margin: 10px 5px;
+    display: inline-block;
+}
+.li-list .list-goodsche button{
+    background-color: #ff8800;
+    border: none;
+    color: white;
+}
+
+/* 收藏 */
+.li-list .list-collect{
+    width: 84px;
+    height: 74px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.li-list .list-collect ul{
+    list-style-type: none; 
+    padding-left: 8px;
+    background-color: white;
+    border-left: 1px solid #e8e2e0;
+    border-bottom: 1px solid #e8e2e0;
+    overflow-x: hidden;
+}
+.li-list .list-collect li{
+    list-style-type: none; 
+    margin: 5px;
+    text-align: left;
+}
+
+/* 千牛卖家中心 */
+.li-list .list-qianniu{
+    width: 100px;
+    height: 214px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.li-list .list-qianniu ul{
+    list-style-type: none; 
+    padding-left: 8px;
+    background-color: white;
+    border-left: 1px solid #e8e2e0;
+    border-bottom: 1px solid #e8e2e0;
+    overflow-x: hidden;
+}
+.li-list .list-qianniu li{
+    list-style-type: none; 
+    margin: 5px;
+    text-align: left;
+}
+.li-list .qianxiu-list{
+    width: 100px;
+}
+
+
+/* 客服 */
+.li-list .list-cs{
+    width: 100px;
+    height: 214px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.li-list .list-cs ul{
+    list-style-type: none; 
+    padding-left: 8px;
+    background-color: white;
+    border-left: 1px solid #e8e2e0;
+    border-bottom: 1px solid #e8e2e0;
+    overflow-x: hidden;
+}
+.li-list .list-cs li{
+    list-style-type: none; 
+    margin: 5px;
+    text-align: left;
+}
+
+/* 网站导航 */
+

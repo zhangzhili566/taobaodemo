@@ -1,0 +1,136 @@
+.searchAll{
+    height: 120px;
+    background-color: #e8e2e0;
+    position: relative;
+    display: block;
+}
+.search{
+    width: 1190px;
+    height: 88px;
+    position: relative;
+    margin: 0 17%;
+}
+
+/* logo */
+.logo{
+    width: 140px;
+    height: 60px;
+    position: absolute;
+    float: left;
+    left: 150px;
+    color: #ff8800;
+    margin-top: 30px;
+}
+.logo .iconfont{
+    font-size: 50px;
+}
+
+/* 搜索框 */
+.searchtext{
+    width: 550px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    display: inline;
+    float: left;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    border-radius: 25px;
+}
+.searTab{
+    float: left;
+    width: 74px;
+    height: 35px;
+    display: inline;
+    border-right: 0.5px solid #e8e2e0;
+}
+.sear-ul{
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.sear-ul li{
+    width: 55px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    background-color: white;
+    z-index: 100;
+}
+.sear-li-c{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.sear-li-yes{
+    display: block!important;
+    border-bottom-left-radius: 0;
+}
+.sear-li-no{
+    display: none;
+}
+.sear-span-xia{
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+.sear-span-xia .iconfont{
+    font-size: 12px;
+}
+.sear-text{
+    float: left;
+    position: relative;
+    display: inline;
+}
+.sear-text .iconfont{
+    width: 367px;
+    height: 35px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.sear-camera{
+    width: 24px;
+    height: 35px;
+    float: left;
+    line-height: 35px;
+}
+.sear-camera .iconfont{
+    font-size: 25px;
+}
+.sear-btn{
+    float: left;
+    width: 79px;
+    height: 31px;
+    margin: 2px;
+    padding: 0;
+    border: 0;
+    background-color: #ff8800;
+    border-radius: 25px;
+}
+
+/* 二维码 */
+.qrcode{
+    width: 80px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    right: 150px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline;
+}
+.a-hongbao{
+    color: red;
+    font-size: 13px;
+}
+.qrcode .iconfont{
+    font-size: 70px;
+    color: red;
+}
